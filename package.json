@@ -1,0 +1,46 @@
+{
+  "name": "gandacov_gorun_team",
+  "version": "1.0.0",
+  "description": "Calculator Reduceri - aplicatie web pentru calcularea reducerilor in MDL.",
+  "main": "script.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "testMatch": [
+      "<rootDir>/tests/**/*.test.js"
+    ],
+    "collectCoverageFrom": [
+      "calculator.js",
+      "script.js"
+    ],
+    "coverageReporters": [
+      "text",
+      "lcov"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnastasiaG24/Gandacov_Gorun_TEAM.git"
+  },
+  "keywords": [
+    "calculator",
+    "reduceri",
+    "javascript",
+    "jest"
+  ],
+  "author": "Gandacov, Gorun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnastasiaG24/Gandacov_Gorun_TEAM/issues"
+  },
+  "homepage": "https://github.com/AnastasiaG24/Gandacov_Gorun_TEAM#readme",
+  "devDependencies": {
+    "jest": "^30.5.1",
+    "jest-environment-jsdom": "^30.5.1"
+  }
+}
